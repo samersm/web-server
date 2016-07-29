@@ -1,0 +1,16 @@
+server.js                               server.js
+
+// startup code before the challenge.
+// this is a route direction.
+var express = require("express");
+var app = express();
+// shortcut meaning req = request , res = respond 
+app.get('/', function (req, res) {
+    res.send('Hello Express!');
+});
+
+// challenge
+// /about
+// About Us
+
+app.listen(8080);
